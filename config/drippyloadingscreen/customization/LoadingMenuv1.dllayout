@@ -1,0 +1,26 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = resources/2022-05-13_15.46.48.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = 
+}
+
+customization {
+  orientation = bottom-centered
+  x = -3
+  action = editforgememoryinfo
+  y = -31
+}
+
+customization {
+  x = 8
+  textcolor = 
+  action = editforgestatustext
+  y = -12
+}
+

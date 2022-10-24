@@ -1,0 +1,252 @@
+[general]
+	#The Client ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
+	clientID = 762726289341677668
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen
+	configScreen = true
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 13
+
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Colonia is loading"
+	#The second line of text under the app name
+	state = "Game Starting..."
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "https://wiki.nebulanetwork.net:3443/modpack-resources/512.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Modded Minecraft Version %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	[[init.buttons]]
+		label = "Play Colonia"
+		url = "https://www.curseforge.com/minecraft/modpacks/colonia"
+
+	[[init.buttons]]
+		label = "Join Nebula Network"
+		url = "https://nebulanetwork.net/"
+
+
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is currently chilling"
+	#The second line of text under the app name
+	state = "Appreciating the main menu"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "https://wiki.nebulanetwork.net:3443/modpack-resources/512.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Modded Minecraft Version %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	[[main_menu.buttons]]
+		label = "Play Colonia"
+		url = "https://www.curseforge.com/minecraft/modpacks/colonia"
+
+	[[main_menu.buttons]]
+		label = "Join Nebula Network"
+		url = "https://nebulanetwork.net/"
+
+
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is looking for a server"
+	#The second line of text under the app name
+	state = "Searching for friends"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "https://wiki.nebulanetwork.net:3443/modpack-resources/512.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Modded Minecraft Version %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	[[server_list.buttons]]
+		label = "Play Colonia"
+		url = "https://www.curseforge.com/minecraft/modpacks/colonia"
+
+	[[server_list.buttons]]
+		label = "Join Nebula Network"
+		url = "https://nebulanetwork.net/"
+
+
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = false
+	#The first line of text under the app name
+	description = "%player% is looking for a Realm"
+	#The second line of text under the app name
+	state = "Browsing Realms"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "mclogonew"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	buttons = []
+
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% is joining a game"
+	#The second line of text under the app name
+	state = "Joining Game"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "https://wiki.nebulanetwork.net:3443/modpack-resources/512.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Modded Minecraft Version %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	[[join_game.buttons]]
+		label = "Play Colonia"
+		url = "https://www.curseforge.com/minecraft/modpacks/colonia"
+
+	[[join_game.buttons]]
+		label = "Join Nebula Network"
+		url = "https://nebulanetwork.net/"
+
+
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Currently In %world%"
+	#The second line of text under the app name
+	state = "Playing singleplayer"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "https://wiki.nebulanetwork.net:3443/modpack-resources/512.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Modded Minecraft Version %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	[[single_player.buttons]]
+		label = "Play Colonia"
+		url = "https://www.curseforge.com/minecraft/modpacks/colonia"
+
+	[[single_player.buttons]]
+		label = "Join Nebula Network"
+		url = "https://nebulanetwork.net/"
+
+
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Playing on %servername% with %players% players"
+	#The second line of text under the app name
+	state = "Playing online"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "https://wiki.nebulanetwork.net:3443/modpack-resources/512.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Modded Minecraft Version %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	[[multi_player.buttons]]
+		label = "Play Colonia"
+		url = "https://www.curseforge.com/minecraft/modpacks/colonia"
+
+	[[multi_player.buttons]]
+		label = "Join Nebula Network"
+		url = "https://nebulanetwork.net/"
+
+
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = false
+	#The first line of text under the app name
+	description = "Playing on %realmname%"
+	#The second line of text under the app name
+	state = "Playing on a Realm"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "mclogonew"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%realmdescription%"
+	buttons = []
+
+[generic]
+	#The first line of text under the app name
+	description = "Playing Colonia"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "https://wiki.nebulanetwork.net:3443/modpack-resources/512.png"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Modded Minecraft Version %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "mclogo"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+
+	[[generic.buttons]]
+		label = "Play Colonia"
+		url = "https://www.curseforge.com/minecraft/modpacks/colonia"
+
+	[[generic.buttons]]
+		label = "Join Nebula Network"
+		url = "https://nebulanetwork.net/"
+
+
+[dimension_overrides]
+	enabled = false
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is in The Overworld"
+		state = ""
+		largeImageKey = "https://wiki.nebulanetwork.net:3443/modpack-resources/512.png"
+		largeImageText = "In the Overworld"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is in The Nether"
+		state = ""
+		largeImageKey = "https://wiki.nebulanetwork.net:3443/modpack-resources/512.png"
+		largeImageText = "In the Nether"
+		smallImageKey = "nether"
+		smallImageText = "%mods% mods installed"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% is in The End"
+		state = ""
+		largeImageKey = "https://wiki.nebulanetwork.net:3443/modpack-resources/512.png"
+		largeImageText = "In the End"
+		smallImageKey = "end"
+		smallImageText = "%mods% mods installed"
+
+

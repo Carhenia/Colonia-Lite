@@ -1,0 +1,59 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/2022-05-13_15.46.48.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = bottom-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources\discord-logo-4-1.png
+  label = 
+  loopbackgroundanimations = true
+  x = -63
+  width = 50
+  actionid = 7f3984c9-7723-40dc-a495-33648503d7a21652433371850
+  action = addbutton
+  y = -80
+  backgroundnormal = resources\discord-logo-4-1.png
+  value = https://discord.gg/BZHsftqMCj
+  height = 50
+}
+
+customization {
+  path = resources/logo.png
+  orientation = top-centered
+  x = -152
+  width = 313
+  action = addtexture
+  actionid = eab3bd85-444c-4290-bd69-1681bb3385001652618198018
+  y = 37
+  height = 100
+}
+
+customization {
+  path = resources/nebulanetwork.png
+  orientation = bottom-right
+  x = -122
+  width = 60
+  action = addtexture
+  actionid = edc39689-bd00-4482-be15-384fe2ebefa51652673602571
+  y = -71
+  height = 60
+}
+

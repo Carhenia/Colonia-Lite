@@ -1,0 +1,26 @@
+type = menu
+
+customization-meta {
+  identifier = com.feywild.feywild.util.MenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/2022-05-13_15.46.18.png
+  action = texturizebackground
+}
+
+customization {
+  baseheight = 1377
+  action = autoscale
+  basewidth = 2560
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+

@@ -1,0 +1,8 @@
+type = customizablemenus
+
+com.feywild.feywild.util.MenuScreen {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
+}
+
